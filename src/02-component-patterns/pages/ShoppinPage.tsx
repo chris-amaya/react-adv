@@ -6,7 +6,6 @@ import {
 } from "../components/";
 import "../styles/custom-styles.css";
 import useShoppingCart from "../hooks/useShoppingCart";
-// import { products } from "../data/products";
 
 export default function ShoppinPage() {
   const { onProductCountChange, shoppingCart, products } = useShoppingCart();
